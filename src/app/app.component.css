@@ -1,0 +1,35 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  textarea {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ddd;
+    overflow-x: auto;
+    white-space: pre-wrap; /* Ensure content wraps */
+    word-wrap: break-word; /* Break long words if necessary */
+  }
+  
+  .json-output {
+    max-width: 100%; /* Responsive */
+    max-height: 300px;
+    overflow-y: auto; /* Scroll vertically if content is too long */
+  }
+  
+  .translated-output {
+    max-width: 100%; /* Responsive */
+    max-height: 300px;
+    overflow-y: auto; /* Scroll vertically if content is too long */
+  }
+  
